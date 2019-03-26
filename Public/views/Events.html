@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>It's happening!</title>
+    <link rel="stylesheet" type="text/css" href="./static/stylesheets/style.css">
+    <style>
+	table.Events {
+		padding-left:230px
+		}
+        table.Events td {
+  width: 150px;
+  height: 180px;
+  border: 10px solid #ddd;
+  color:white;
+  text-align:center;
+  background-color: red;
+
+}
+    </style>
+</head>
+
+<body>
+    <header class="banner">
+        <p id="posi3" style="color:white">
+            Not signed in.
+        </p>
+        <h1 style="text-align:center; color:white">It's happening!</h1>
+        <h3 style="text-align:center; color:white">Now explore Charlotte like never before</h3>
+
+    </header>
+
+    <nav class="main">
+        <ul>
+            <li>Home |</li>
+            <li><a href="SearchEvent.html"> Sign In</a></li>
+            <li> |Search Events</li>
+        </ul>
+    </nav>
+    <div class="sideshiftE">
+        <table class="SEvents">
+            <tr>
+                <td class="select">City:
+                    <select>
+                        <option value="Charlotte">Charlotte</option>
+                        <option value="Atlanta">Atlanta</option>
+                    </select>
+                </td>
+                <td class="select">State:
+                    <select>
+                        <option value="Carolina">North Carolina</option>
+                        <option value="Georgia">Georgia</option>
+                    </select>
+                </td>
+                <td class="select">Zip Code:
+                    <select>
+                        <option value="28262">28262</option>
+                        <option value="25323">25323</option>
+                    </select>
+                </td>
+                <td class="select">Event Type:
+                    <select>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Food">Food</option>
+                    </select>
+                </td>
+                <td class="select">In Radius Of:
+                    <select>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+			<td><button type="button" onClick="javascript:location.href = 'Events.html';">Search</button>
+	</td>
+            </tr>
+        </table>
+		<br>
+		<div>
+		<table class="Events">
+            <tr>
+                <td>Event1!</td>
+				<td>Event2!</td>
+				<td>Event3!</td>
+				 </tr>
+        </table>
+
+
+		</div>
+    </div>
+
+
+    <footer>© MANAGEMENT OFFICE ON HIGH STREET. ALL RIGHTS RESERVED.</footer>
+
+</body>
+
+</html>
